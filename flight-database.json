@@ -1,0 +1,125 @@
+{
+    "flights": [
+        {
+            "flight_no": "DL1234",
+            "airline": "Delta",
+            "departure": {
+                "airport_code": "JFK",
+                "timezone": "America/New_York",
+                "date": "2024/02/12",
+                "scheduled_dep": "03:25 PM",
+                "actual_dep": "3:45 PM",
+                "delayed": "Yes",
+                "delayed_by": "20"
+                },
+            "arrival": {
+                "airport_code": "SFO",
+                "timezone": "America/Los_Angeles",
+                "date": "2024/02/12",
+                "scheduled_arr": "11:00 PM",
+                "actual_arr": "11:00 PM",
+                "delayed": "No",
+                "delayed_by": "On time"
+                }
+        },
+        {
+            "flight_no": "UA5678",
+            "airline": "United Airlines",
+            "departure": {
+                "airport_code": "ORD",
+                "timezone": "America/Chicago",
+                "date": "2024/04/20",
+                "scheduled_dep": "06:15 AM",
+                "actual_dep": "06:15 AM",
+                "delayed": "No",
+                "delayed_by": "On time"
+                },
+            "arrival": {
+                "airport_code": "JFK",
+                "timezone": "America/New_York",
+                "date": "2024/04/20",
+                "scheduled_arr": "10:00 AM",
+                "actual_arr": "10:15 AM",
+                "delayed": "Yes",
+                "delayed_by": "15"
+                }
+        },
+        {
+            "flight_no": "AA9012",
+            "airline": "American Airlines",
+            "departure": {
+                "airport_code": "DFW",
+                "timezone": "America/Chicago",
+                "date": "2024/05/25",
+                "scheduled_dep": "11:15 AM",
+                "actual_dep": "12:15 PM",
+                "delayed": "Yes",
+                "delayed_by": "60"
+                },
+            "arrival": {
+                "airport_code": "DEN",
+                "timezone": "America/Denver",
+                "date": "2024/04/20",
+                "scheduled_arr": "01:45 PM",
+                "actual_arr": "02:15 PM",
+                "delayed": "Yes",
+                "delayed_by": "30"
+                }
+        },
+        {
+            "flight_no": "NK3456",
+            "airline": "Spirit Airlines",
+            "departure": {
+                "airport_code": "SFO",
+                "timezone": "America/Los_Angeles",
+                "date": "2024/04/11",
+                "scheduled_dep": "08:00 PM",
+                "actual_dep": "08:00 PM",
+                "delayed": "No",
+                "delayed_by": "On time"
+                },
+            "arrival": {
+                "airport_code": "ORD",
+                "timezone": "America/Chicago",
+                "date": "2024/04/11",
+                "scheduled_arr": "11:00 PM",
+                "actual_arr": "11:00 PM",
+                "delayed": "No",
+                "delayed_by": "On time"
+                }
+        }
+    ],
+    
+    "users": [
+        {
+            "id": "1",
+            "username": "jane.smith",
+            "role": "admin",
+            "permissions": "crud"
+        },
+        {
+            "id": "2",
+            "username": "sam.jones",
+            "role": "enduser",
+            "permissions": "read-only"
+        },
+        {
+            "id": "3",
+            "username": "christie.williams",
+            "role": "enduser",
+            "permissions": "read-only"
+        },
+        {
+            "id": "4",
+            "username": "patrick.johnson",
+            "role": "admin",
+            "permissions": "crud"
+        },
+        {
+            "id": "5",
+            "username": "taylor.brown",
+            "role": "enduser",
+            "permissions": "read-only"
+        }
+    ]    
+  } 
